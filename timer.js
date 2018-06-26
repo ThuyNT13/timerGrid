@@ -15,7 +15,7 @@ Feel free to conduct research on the web, but do not ask anyone for help. Also, 
   [x] - clearTimeout
 */
 const timeInt = 250;
-const timeDelay = 300;
+const timeDelay = 2000;
 const color1 = 'mediumvioletred';
 const color2 = 'teal';
 let intID;
