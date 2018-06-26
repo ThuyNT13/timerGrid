@@ -21,7 +21,6 @@ const timeDelay = 2000;
 const color1 = 'mediumvioletred';
 const color2 = 'teal';
 let intID;
-let timeOutID;
 
 function getRandomCell () {
   const min = Math.ceil(1);
@@ -30,7 +29,7 @@ function getRandomCell () {
 }
 
 function changeClass (c) {
-  timeOutID = setTimeout(changeBack, timeDelay);
+  let timeOutID = setTimeout(changeBack, timeDelay);
 
   function changeBack () {
     if (c.className == "ineligible") {
