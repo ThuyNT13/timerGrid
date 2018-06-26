@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* grid-template-rows: 1fr 1fr 1fr 1fr; */
+  grid-gap: 1em;
+  grid-auto-rows: 150px;
+  border: 2px solid;
+}
+
+.grid > div {
+  font-size: 50px;
+  background-color: #a6a6a5;
+}
+
+.active {
+  background-color: purple;
+}
