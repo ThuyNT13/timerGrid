@@ -13,6 +13,8 @@ Feel free to conduct research on the web, but do not ask anyone for help. Also, 
     [x] - setTimeout timer cycle for 2000ms
 [x] - change className back to "eligible"
   [x] - clearTimeout
+
+[x] = adjust height for cells to be more responsive
 */
 const timeInt = 250;
 const timeDelay = 2000;
