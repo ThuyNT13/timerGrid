@@ -24,10 +24,9 @@ function changeClass (c) {
     if (c.className == "ineligible") {
       c.className = "eligible";
       clearInterval(timeOutID);
-    } else {
-      c.className = "ineligible";
-      console.log("classname inside setTimeout: " +c.className);
     }
+      // c.className = "ineligible";
+      console.log("classname inside setTimeout: " +c.className);
   }
 
   // clearInterval(timeOutID);
@@ -39,7 +38,7 @@ function changeBkgColor () {
   if (cell.className == "eligible") {
 
     cell.style.backgroundColor = cell.style.backgroundColor == color1 ? color2 : color1;
-
+    cell.className = "ineligible";
 
     console.log("className inside if: " +cell.className);
   }
