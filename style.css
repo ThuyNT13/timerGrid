@@ -11,7 +11,7 @@
   grid-gap: 1em;
   padding: 1em;
   height: 100vh;
-  border: 5px solid;
+  border: 10px solid #2B547E;
 }
 
 .grid > div {

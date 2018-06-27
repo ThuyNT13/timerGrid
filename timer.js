@@ -18,8 +18,8 @@ Feel free to conduct research on the web, but do not ask anyone for help. Also, 
 */
 const timeInt = 250;
 const timeDelay = 2000;
-const color1 = 'mediumvioletred';
-const color2 = 'teal';
+const color1 = 'royalblue'; // #51AFE2 iceberg mediumvioletred
+const color2 = 'lightsteelblue'; // #19759C teal
 let intID;
 
 function getRandomCell () {
