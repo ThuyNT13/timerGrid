@@ -14,25 +14,23 @@ function changeClass (c) {
   let timeOutID = setTimeout(changeToAwake, timeDelay);
 
   function changeToAwake () {
-    if (c.className == "asleep") {
-      c.className = "awake";
-      clearTimeout(timeOutID);
-    }
+    c.className = "awake";
+    clearTimeout(timeOutID);
   }
 }
 
-function changeBkgColor () {
+function changeColorAndClass () {
   const cell = document.getElementById(getRandomCell());
 
   if (cell.className == "awake") {
     cell.style.backgroundColor = cell.style.backgroundColor == color1 ? color2 : color1;
     cell.className = "asleep";
+    changeClass(cell);
   }
-  changeClass(cell);
 }
 
 function changeColor () {
-  intID = setInterval(changeBkgColor, timeInt);
+  intID = setInterval(changeColorAndClass, timeInt);
 }
 
 function stopInterval () {
