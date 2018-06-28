@@ -6,14 +6,14 @@ let intID;
 
 function getRandomCell () {
   const min = Math.ceil(1);
-  const max = Math.floor(16);
+  const max = Math.floor(25);
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
 function changeClass (c) {
-  let timeOutID = setTimeout(changeBack, timeDelay);
+  let timeOutID = setTimeout(changeToAwake, timeDelay);
 
-  function changeBack () {
+  function changeToAwake () {
     if (c.className == "asleep") {
       c.className = "awake";
       clearTimeout(timeOutID);
