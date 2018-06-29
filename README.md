@@ -18,7 +18,7 @@ Added `clearTimeout` inside `changeClass()` but not sure if this is even necessa
 
 # Issues
 
-- [**hexadecimals** not working for HTMLElement.style.property?](./issues/1)
+- [**hexadecimals** not working for HTMLElement.style.property?](./blob/master/issues/1)
 
 ## References
 - [setInterval()](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setInterval)
