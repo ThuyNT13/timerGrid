@@ -11,7 +11,7 @@ function getRandomCell () {
 }
 
 function changeClass (c) {
-  let timeOutID = setTimeout(changeToAwake, timeDelay);
+  const timeOutID = setTimeout(changeToAwake, timeDelay);
 
   function changeToAwake () {
     c.className = "awake";
@@ -19,18 +19,18 @@ function changeClass (c) {
   }
 }
 
-function changeColorAndClass () {
-  const cell = document.getElementById(getRandomCell());
-
-  if (cell.className == "awake") {
-    cell.style.backgroundColor = cell.style.backgroundColor == color1 ? color2 : color1;
-    cell.className = "asleep";
-    changeClass(cell);
-  }
-}
-
 function changeColor () {
   intID = setInterval(changeColorAndClass, timeInt);
+  
+  function changeColorAndClass () {
+    const cell = document.getElementById(getRandomCell());
+
+    if (cell.className == "awake") {
+      cell.style.backgroundColor = cell.style.backgroundColor == color1 ? color2 : color1;
+      cell.className = "asleep";
+      changeClass(cell);
+    }
+  }
 }
 
 function stopInterval () {
