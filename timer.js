@@ -19,7 +19,8 @@ function changeClass (c) {
   }
 }
 
-function changeColorAndClass () {
+function changeColor () {
+  intID = setInterval(changeColor, timeInt);
   const cell = document.getElementById(getRandomCell());
 
   if (cell.className == "awake") {
@@ -27,10 +28,6 @@ function changeColorAndClass () {
     cell.className = "asleep";
     changeClass(cell);
   }
-}
-
-function changeColor () {
-  intID = setInterval(changeColorAndClass, timeInt);
 }
 
 function stopInterval () {
