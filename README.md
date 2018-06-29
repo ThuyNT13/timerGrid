@@ -16,15 +16,12 @@ Placed a button to stop the `changeColor()` loop - `clearInterval`. Although it 
 
 Added `clearTimeout` inside `changeClass()` but not sure if this is even necessary as it operates fine without it. So when would I have to specifically invoke `clearTimeout` and what exactly happens when I clear a `setTimeout` timer as it seems redundant?  
 
-# [Issues](https://github.com/ThuyNT13/timerGrid/issues)
+# Issues
 
-- Not sure why *hexadecimals* don't work. It's set for the first color but upon the next iteration, the 2nd color never takes so possibly an issue with the HTML element.style property. Note stackoverflow response here: [html element.style.color question](https://stackoverflow.com/questions/7077939/html-element-style-color-question).
-- Is `clearTimeout` necessary?
+- [**hexadecimals** not working for HTMLElement.style.property?](./issues/1)
 
 ## References
 - [setInterval()](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setInterval)
 - [clearInterval()](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/clearInterval)
 - [setTimeout()](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout)
 - [clearTimeout()](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/clearTimeout)
-- [HTMLElement.style property](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/style)
-- [Using dynamic styling](https://developer.mozilla.org/en-US/docs/Web/API/CSS_Object_Model/Using_dynamic_styling_information)
