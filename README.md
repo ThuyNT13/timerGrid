@@ -1,6 +1,6 @@
 # setInterval and setTimeout
 
-Trying to better understand how `setInterval` and `setTimeout` work because there's nothing like building a project to test your assumption and prove them wrong or right. And I was proven wrong as what I expected to happen didn't.
+Trying to better understand how `setInterval` and `setTimeout` work because there's nothing like building a project to test your assumptions and prove them wrong or right. And I was proven wrong as what I expected to happen didn't.
 
 ### setInterval
 
@@ -16,7 +16,7 @@ Placed a button to stop the `changeColor()` loop - `clearInterval`. Although it 
 
 Added `clearTimeout` inside `changeClass()` but not sure if this is even necessary as it operates fine without it. So when would I have to specifically invoke `clearTimeout` and what exactly happens when I clear a `setTimeout` timer as it seems redundant?  
 
-# Issues
+# [Issues](https://github.com/ThuyNT13/timerGrid/issues)
 
 - Not sure why *hexadecimals* don't work. It's set for the first color but upon the next iteration, the 2nd color never takes so possibly an issue with the HTML element.style property. Note stackoverflow response here: [html element.style.color question](https://stackoverflow.com/questions/7077939/html-element-style-color-question).
 - Is `clearTimeout` necessary?
