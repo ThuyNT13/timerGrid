@@ -18,10 +18,10 @@ Added `clearTimeout` inside `changeClass()` but not sure if this is even necessa
 
 # Issues
 
-- [**hexadecimals** not working for HTMLElement.style.property?](./blob/master/issues/1)
+- [**hexadecimals** not working for HTMLElement.style.property?](https://github.com/ThuyNT13/timerGrid/issues/1)
 
 ## References
-- [setInterval()](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setInterval)
+- [setInterval()](https://developer.mozillay.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setInterval)
 - [clearInterval()](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/clearInterval)
 - [setTimeout()](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout)
 - [clearTimeout()](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/clearTimeout)
